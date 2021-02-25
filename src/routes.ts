@@ -1,5 +1,5 @@
 import { Application, oakCors, Router } from "../deps.ts";
-import { launchesAPI, planetsAPI, welcomeAPI } from "./controllers/index.ts";
+import { launchesAPI, planetsAPI, welcomeAPI } from "./components/index.ts";
 
 const routes = (app: Application) => {
   const router = new Router();
