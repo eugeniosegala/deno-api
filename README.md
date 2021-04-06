@@ -16,3 +16,8 @@ http://localhost:8000/planets
 `docker build -t deno/sample-api .`\
 `docker run -p 5050:80 -t deno/sample-api`\
 `docker exec -it 40a01576ec10 sh`
+
+### Useful commands
+
+`deno fmt`\
+`deno test`\
