@@ -1,7 +1,7 @@
 import { Application, log } from "../../deps.ts";
 
 const errorHandler = (app: Application) => {
-  app.addEventListener("error", (event: { error: any; }) => {
+  app.addEventListener("error", (event: { error: any }) => {
     log.error(event.error);
   });
 

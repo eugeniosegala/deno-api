@@ -9,7 +9,7 @@ const config: DenonConfig = {
       allow: {
         "env": "PORT",
         "net": "api.spacexdata.com,0.0.0.0:8000",
-        "read": "data/kepler_exoplanets_nasa.csv"
+        "read": "data/kepler_exoplanets_nasa.csv",
       },
       lock: "lock.json",
       env: env(),
