@@ -7,4 +7,4 @@ COPY . .
 # default port exposure
 EXPOSE 80
 # these are passed as deno arguments when run with docker
-CMD ["run", "--allow-env", "--allow-net", "--allow-read", "--allow-write", "src/server.ts"]
+CMD ["run", "--allow-env=PORT", "--allow-net=api.spacexdata.com,0.0.0.0:80", "--allow-read=data/kepler_exoplanets_nasa.csv", "src/server.ts"]
